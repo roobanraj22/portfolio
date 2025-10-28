@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="vanta-bg"></div>
+
+  <!-- NAV -->
+<nav>
+  <div class="logo">ROOBANRAJ</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><button id="toggle-theme" aria-label="Toggle theme">🌙</button></li>
+  </ul>
+</nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <div class="home-content">
+      <img src="rooban img.jpeg" class="profile" alt="Profile">
+      <h1>Hi, I'm <span>ROOBANRAJ</span></h1>
+      <p>Full Stack Developer • Designer • Creator</p>
+      <a href="resume.pdf" download class="btn">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a creative and dedicated Full Stack Developer who loves building user-friendly and efficient web experiences. I enjoy solving real-world problems through technology and design.</p>
+  </section>
+  <!-- ===== PROJECTS ===== -->
+<section id="projects">
+  <h2>My Projects</h2>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="project2.jpg" alt="certificate-generated" />
+      <div class="project-info">
+        <h3>certificate-generated</h3>
+        <p>My responsive personal portfolio showcasing my projects, skills, and experience with a 3D animated background.</p>
+        <a href=" https://roobanraj22.github.io/certificate-generated/" target="_blank" class="btn btn-secondary">view project</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="blood.jpg" alt="Blood-Donation-Emergency-Finder" />
+      <div class="project-info">
+        <h3>Blood-Donation-Emergency-Finder</h3>
+        <p>A clean and user-friendly Blood-Donation-Emergency-Finder website with filters, comparison, and booking form.</p>
+        <a href=" https://roobanraj22.github.io/Blood-Donation-Emergency-Finder/" target="_blank" class="btn btn-secondary">view project</a>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h1>Skills</h1>
+    <div class="skills-container">
+      <div class="skill">
+        <span>Linux</span>
+        <div class="bar"><div class="progress" style="width: 90%">90%</div></div>
+      </div>
+      <div class="skill">
+        <span>Cloud Security</span>
+        <div class="bar"><div class="progress" style="width: 80%">80%</div></div>
+      </div>
+      <div class="skill">
+        <span>Networking</span>
+        <div class="bar"><div class="progress" style="width: 75%">75%</div></div>
+      </div>
+      <div class="skill">
+        <span>Automation (Bash / Python)</span>
+        <div class="bar"><div class="progress" style="width: 70%">70%</div></div>
+      </div>
+      <div class="skill">
+        <span>Web Development</span>
+        <div class="bar"><div class="progress" style="width: 65%">65%</div></div>
+      </div>
+    </div>
+  </section>
+ <!-- CERTIFICATIONS -->
+<section id="certifications" class="container">
+  <h2 class="section-title">Certifications</h2>
+  <div class="cert-container">
+    <!-- Card 1 -->
+    <article class="cert-card">
+      <img src="A ROOBANRAJ (1).pdf" alt="Certificate 1">
+      <div class="cert-body">
+        <h3>Full stack webdevelopment</h3>
+        <p class="cert-issuer">Coursera • 2024</p>
+        <p class="cert-desc">Introductory certificate covering web development concepts and hands-on projects.</p>
+        <div class="cert-actions">
+          <a href="A ROOBANRAJ (1).pdf" download class="btn small">Download</a>
+          <a href="A ROOBANRAJ (1).pdf" target="_blank" rel="noopener" class="btn small ghost">Verify</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="cert-card">
+      <img src="A ROOBANRAJ.pdf" alt="Certificate 2">
+      <div class="cert-body">
+        <h3>AI Programming with Python</h3>
+        <p class="cert-issuer">Udacity • 2025</p>
+        <p class="cert-desc">Practical AI workflows: data preprocessing, model training, and deployment basics.</p>
+        <div class="cert-actions">
+          <a href="A ROOBANRAJ.pdf" download class="btn small">Download</a>
+          <a href="A ROOBANRAJ.pdf" target="_blank" rel="noopener" class="btn small ghost">Verify</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="cert-card">
+      <img src="ROOBANRAJ.pdf" alt="Certificate 3">
+      <div class="cert-body">
+        <h3>Web Development Bootcamp</h3>
+        <p class="cert-issuer">Udemy • 2023</p>
+        <p class="cert-desc">Full-stack web development with emphasis on responsive design and best practices.</p>
+        <div class="cert-actions">
+          <a href="ROOBANRAJ.pdf" download class="btn small">Download</a>
+          <a href="ROOBANRAJ.pdf" target="_blank" rel="noopener" class="btn small ghost">Verify</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+ <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>© 2025 Your Name | All Rights Reserved</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
